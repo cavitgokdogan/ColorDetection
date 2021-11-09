@@ -18,7 +18,7 @@ cv2.createTrackbar("V1", "frame", 0, 255, nothing)
 cv2.createTrackbar("V2", "frame", 0, 255, nothing)
 
 while True:
-    _, frame = cap.read()                                        # Okunan görüntü frame adındaki değişkene atanıyor. Virgülden öncesi kontrol amaçlı konulur.(True ya da false değer döner.)
+    _, frame = cap.read()                                        # Okunan görüntü frame adındaki değişkene atanıyor. Virgülden öncesi kontrol amaçlı konulur.
     #frame = cv2.flip(frame, 1)
     hsvFrame = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)            # frame değişkeninden alınan görüntü HSV'ye dönüştürülüp hsvFrame adındaki değişkene atanıyor.
 
