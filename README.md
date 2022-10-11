@@ -1,3 +1,4 @@
+Bu kod Genç Mühendisler Topluluğunda verdiğim "Görüntü İşlemeye Giriş" eğitiminde örnek olarak yazılmıştır.
 # Color Detection
 !!! Bu kodların çalışabilmesi için OpenCV kütüphanesine sahip olmanız gerekmektedir. 
 
